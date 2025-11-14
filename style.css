@@ -1,1 +1,23 @@
+body {
+    cursor: url("cursorterrance.png") 25 25, auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: maroon;
+    text-align:center;
+}
 
+img {
+    width: 300px;
+}
+
+img:hover {
+    width: 400px;
+}
+
+.fancy {
+    width: 400px;
+}
+
+.fancy:hover {
+    width: 500px;
+}

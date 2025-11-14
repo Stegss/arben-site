@@ -1,0 +1,56 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: black;
+    color: goldenrod;
+    margin: 20px;
+    text-align: center;
+    background-image: url("bg.jpg");
+    background-repeat: repeat;
+    cursor: url("cursor.png") 240 240, auto;
+}
+
+h1 {
+    background-color: maroon;
+}
+
+p, ul, ol, table {
+    line-height: 2.5;
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto 1em auto;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+table {
+    background-color: maroon;
+    color: goldenrod;
+    width: 60%;
+    margin: 0 audio 10px auto;
+}
+
+th, td {
+    border: 1px solid goldenrod;
+}
+
+a {
+    color: gold;
+}
+
+a:hover {
+    color: maroon;
+}
+
+img {
+    width: 400px;
+}
+
+img:hover {
+    width: 800px;
+}
+
+.bigtext {
+    font-size: 80px;
+}
