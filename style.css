@@ -2,8 +2,9 @@ body {
     cursor: url("cursorterrance.png") 25 25, auto;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
-    background-color: maroon;
     text-align:center;
+    background-image: url("bg.jpg");
+    background-repeat: repeat;
 }
 
 img {
@@ -20,4 +21,64 @@ img:hover {
 
 .fancy:hover {
     width: 500px;
+}
+
+a {
+    color: lightgreen
+}
+
+.other {
+    color: lightgreen;
+}
+
+.happy {
+    width: 500px;
+}
+
+.happy:hover {
+    width: 600px;
+}
+
+.small {
+    width: 200px;
+}
+
+.small:hover {
+    width: 300px;
+}
+
+table {
+    line-height: 2.5;
+    max-width: 700px;
+    margin: 0 auto 1em auto;
+}
+
+table {
+    background-color: palegoldenrod;
+    color: black;
+    width: 60%;
+    line-height: 2.5;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto 1em auto;
+}
+
+th, td {
+    border: 5px solid maroon;
+}
+
+ol {
+    line-height: 2.5;
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto 1em auto;
+    padding-left: 50px;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+ol, table {
+  box-shadow: 2px 2px 5px black, -2px -2px 5px red;
 }
